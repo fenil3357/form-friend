@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap');
+
+*{
+ font-family: 'Heebo', sans-serif;
+}
+.container{
+  margin: auto;
+  width: 98vw;
+  height: 97vh;
+  background-color:rgb(235, 235, 251);
+  display: flex;
+}
+
+.left{
+  margin: 0;
+  width:20%;
+  height:100%;
+  background-color: rgb(235, 235, 251);
+  display: flex; 
+  flex-direction: column;
+}
+.left .profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  border-radius: 10px;
+  width:250px;
+  height:90px;
+  border: 1px solid rgb(170, 167, 167);
+  background-color: rgb(223, 223, 223);
+}
+.left .profile >* {
+  color: black;
+  margin: 5px;
+ padding: 0px;
+ font-family: 'Heebo', sans-serif;
+}
+.left .pro_option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 30px 0px;
+  border: 1px solid rgb(170, 167, 167);
+  border-radius: 10px;
+  width:250px;
+  height:350px;
+  background-color: rgb(223, 223, 223);
+}
+
+.pro_option .choice{
+  display: flex;
+  width:200px;
+  align-items: center;
+  margin: 6px 10px;
+  height:50px;
+  border: 2px solid rgb(223, 223, 223);
+  /* border-radius: 5px; */
+  /* background-color: rgb(255, 255, 253); */
+}
+
+.pro_option .choice:hover{
+  /* display: flex;
+  width:200px;
+  align-items: center;
+  margin: 6px 10px;
+  height:50px; */
+ cursor: pointer;
+  border: 2px solid rgb(223, 223, 223);
+  border-radius:10px; 
+  background-color: rgb(255, 255, 253);
+}
+.pro_option .choice >* {
+  margin: 0px 10px 0px 0px;
+}
+.pro_option .choice .line{
+  width:5px;
+  height:50px;
+  border-radius:15px;
+  background-color:blue;
+}
+.pro_option .choice .choice_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:40px; 
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(197, 209, 217) ;
+
+}
+.form_i{
+  height: 30px;
+  width: 30px;
+}
+.pro_option .choice_txt{
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+}
+.pro_option .choice:hover .choice_icon{
+  border-radius: 5px;
+  background-color:rgb(254, 255, 255);
+  border: 2px solid  rgb(81, 81, 255);;
+
+}
+.left .logout{
+    margin: 90px auto 0px auto;
+    border-radius: 10px;
+    width:250px;
+    height:85px;
+    border: 1px solid rgb(170, 167, 167);
+    background-color: rgb(223, 223, 223);
+}
+
+.left .logout:hover{
+  border: 1px solid rgb(44, 46, 45);
+  background-color: rgb(234, 187, 187);
+}
+.logout .g_t{
+  margin: 5px 0px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logout .logout_txt{
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.logout .g_t >*{
+margin: 5px 5px;
+}
+
+ .logout .logout_i {
+  height: 30px;
+  width: 30px;
+ }
+ 
+.right{
+  display: flex;
+  flex-direction: column;
+  margin:0px auto;
+  width:79%;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border: 2px solid rgb(255, 254, 254);
+  background-color: rgb(235, 235, 251);
+}
+.right .query{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+  border-radius: 10px;
+  height:60px;
+  /* background-color: rgb(88, 58, 46); */
+}
+ 
+.right .query .search_in{
+  width: 450px;
+  margin: 0px 30px ; 
+  height:50px;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 10px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+}
+ 
+.right .query .search_in:focus{
+  border-style: hidden;
+}
+.right .query .search_in::placeholder {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+}
+.right .query .sort{
+  margin:5px 10px ;
+  border-radius: 5px;
+  width:170px;
+  color: aliceblue;
+  height:55px;
+  background-color: rgb(246, 251, 245);
+}
+
+.right .grp_list{
+  margin: 0px auto;
+  border-radius: 10px;
+  width:98%;
+  height:100%;
+  background-color: #ffffff
+}
+.openlink{
+  text-decoration: none;
+  margin-left:20px;
+}
+
